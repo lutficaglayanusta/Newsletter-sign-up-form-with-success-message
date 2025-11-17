@@ -7,7 +7,7 @@ html{
     font-size: 16px;
 }
 body{
-    background-color: hsl(234, 29%, 20%);
+    background-color: hsl(235, 18%, 26%);
     font-family: "Roboto", sans-serif;
 }
 img{
@@ -27,6 +27,16 @@ input {
     border: 1px solid gainsboro;
     border-radius: 10px;
     width: 80%;
+}
+button{
+    background-color: hsl(234, 29%, 20%);
+    padding: 10px ;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 80%;
+    margin-top: 1rem;
+    cursor: pointer;
 }
 .image {
     width: 45%;
@@ -53,4 +63,25 @@ input {
 }
 .form{
     margin-top: 30px;
+}
+.modal{
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+.modal p{
+    line-height: 1.5rem;
+}
+.modal button{
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    background-color: hsl(4, 100%, 67%);
+    border-radius: 8px;
+}
+.modal .icon{
+    width: 15%;
 }
