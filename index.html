@@ -57,11 +57,21 @@ https://cdn.jsdelivr.net/npm/izitoast@1.4.0/dist/css/iziToast.min.css
           <button type="submit">Subscribe to monthly newsletter</button>
         </form>
       </div>
-      <img
-        class="image"
-        src="./assets/images/illustration-sign-up-desktop.svg"
-        alt=""
-      />
+      <picture>
+        <source
+          media="(max-width: 600px)"
+          srcset="./assets/images/illustration-sign-up-mobile.svg"
+        />
+        <source
+          media="(max-width: 900px)"
+          srcset="./assets/images/illustration-sign-up-tablet.svg"
+        />
+        <img
+          class="image"
+          src="./assets/images/illustration-sign-up-desktop.svg"
+          alt=""
+        />
+      </picture>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js"></script>

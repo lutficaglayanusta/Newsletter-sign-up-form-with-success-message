@@ -39,7 +39,7 @@ button{
     cursor: pointer;
 }
 .image {
-    width: 45%;
+    width: 100%;
 }
 
 .container {
@@ -84,4 +84,40 @@ button{
 }
 .modal .icon{
     width: 15%;
+}
+@media screen and (max-width:600px) {
+    .container {
+        flex-direction: column-reverse;
+        width: 100%;
+        padding: 15px;
+    }
+    button{
+        width: 100%;
+    }
+    input{
+        width: 100%;
+    }
+    .modal{
+        width: 95%;
+    }
+}
+@media screen and (max-width:900px){
+    .container{
+        flex-direction: column-reverse;
+        width: 90%;
+    }
+    button{
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+    input{
+        width: 70%;
+        
+    }
+}
+@media screen and (min-width:912px) and (max-width:1280px) {
+    .container{
+        width: 80%;
+    }
 }

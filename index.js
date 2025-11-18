@@ -47,5 +47,5 @@ form.addEventListener("submit", (e) => {
           instance.close();
         }
     })
-    
+    e.target.reset();
 });
