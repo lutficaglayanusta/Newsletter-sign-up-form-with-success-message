@@ -101,10 +101,10 @@ button{
         width: 95%;
     }
 }
-@media screen and (max-width:900px){
+@media screen and (min-width:600px) and (max-width:900px){
     .container{
         flex-direction: column-reverse;
-        width: 90%;
+        width: 80%;
     }
     button{
         width: 50%;
@@ -115,9 +115,31 @@ button{
         width: 70%;
         
     }
-}
-@media screen and (min-width:912px) and (max-width:1280px) {
-    .container{
-        width: 80%;
+    .modal{
+        width: 70%;
     }
+
+}
+@media screen and (min-width:900px) and (max-width:1200px) {
+    .container{
+        width: 70%;
+        flex-direction: column-reverse;
+    }
+    button{
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+    input{
+        width: 70%;
+    }
+    .modal{
+        width: 50%;
+    }
+}
+@media screen and (min-width:1200px) and (max-width:1800px) {
+    .container {
+        width: 65%;
+    }
+    
 }
